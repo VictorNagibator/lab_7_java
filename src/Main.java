@@ -19,6 +19,9 @@ public class Main {
         inventory.print();
         System.out.println();
 
+        System.out.println(inventory.searchComponent("NVIDIA GeForce RTX 3080"));
+        System.out.println();
+
         Set<String> uniqueComponents = inventory.getTypesOfComponents();
         System.out.println("Виды компонентов:");
         for (String component : uniqueComponents) {

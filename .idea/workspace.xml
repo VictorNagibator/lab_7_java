@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce65b04-ed42-4862-9836-4ed53555bac0" name="Changes" comment="Add project files">
-      <change afterPath="$PROJECT_DIR$/src/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataTransferInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlashMemoryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RAMType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StatusType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7ce65b04-ed42-4862-9836-4ed53555bac0" name="Changes" comment="Added Inventory with sorts and searching methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "D:/IntelliJ Projects/lab_7_java/src/Main.java"
   }
 }]]></component>
@@ -76,11 +58,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701701934134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Inventory with sorts and searching methods">
+      <option name="closed" value="true" />
+      <created>1701709688781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701709688781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project files" />
+    <MESSAGE value="Added Inventory with sorts and searching methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Inventory with sorts and searching methods" />
   </component>
 </project>

@@ -1,17 +1,28 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Set;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Inventory inventory = new Inventory();
+        inventory.addItem(new CPU("Intel Core i7-10700K"));
+        inventory.addItem(new GPU("NVIDIA GeForce RTX 3080"));
+        inventory.addItem(new RAM("HyperX Fury"));
+        inventory.addItem(new Motherboard("ASUS ROG Strix Z490-E Gaming"));
+        inventory.addItem(new CPU("AMD Ryzen 9 5900X"));
+        inventory.print();
+        System.out.println();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        inventory.sortByComponentName();
+        inventory.print();
+        System.out.println();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        inventory.deleteItem("HyperX Fury");
+        inventory.sortByName();
+        inventory.print();
+        System.out.println();
+
+        Set<String> uniqueComponents = inventory.getTypesOfComponents();
+        System.out.println("Виды компонентов:");
+        for (String component : uniqueComponents) {
+            System.out.println(component);
         }
     }
 }
